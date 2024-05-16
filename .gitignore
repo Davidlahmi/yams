@@ -1,0 +1,6 @@
+/data
+/api/node_modules
+/api/src/pdata/pastries_data
+/api/dist
+
+.env

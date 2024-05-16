@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffeb3b;
+    text-align: center;
+    text-shadow: 1px 1px 3px #d32f2f;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #ffeb3b;
+    text-align: center;
+    text-shadow: 1px 1px 3px #d32f2f;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ff9800;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 8px #ffeb3b, 0 0 15px #d32f2f, 0 0 25px #d32f2f;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+
+a {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 8px #ffeb3b, 0 0 15px #d32f2f, 0 0 25px #d32f2f;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.game_over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.connexion {
+    text-align: center;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.nav button {
+    padding: 5px 10px;
+}
